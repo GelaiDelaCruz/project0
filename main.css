@@ -76,6 +76,10 @@ border-radius: 1px;
     width:40%;
     height: 25px;
 }
+.language{
+width:100%;
+}
+
 .lang{
 border-radius: 1px;
     border: 1px solid #b7b7b7;
