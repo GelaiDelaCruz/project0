@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" 
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
     <body>
-    	<a href="index.html">Google Search</a>
-    	<a href="adv.html">Google Advanced Search</a>
-        <form action="http://images.google.com/images?">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class = "headgoogle">
+             <ul class="nav justify-content-end">                    
+            <li class="nav-item">
+                <a class="nav-link ss" href="index.html">Google Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ss" href="adv.html">Google Advanced Search</a>
+            </li>
+            <li class = "nav-item">
+                <a class="nav-link ss" href="#">Sign In</a>
+            </li>
+        </ul>
+    </div>
+        <div class="googlelogo"><br><br>
+            <a href = "#"><img class = "logo"src ="google5.gif" alt = "google"></a>
+
+            <form class="center" action="http://images.google.com/images?"><br>
+                <div class = "input-icons"> 
+                    <i class="fa fa-search icon"></i>
+                    <input class ="sbar" type="text" name="q">
+                </div>
+                <input class ="sbutton"type="submit" value="Image Search">
+                <input class ="sbutton" type ="submit" formaction="https://www.google.com/doodles/" value="I'm Feeling Lucky">
+            </form>
+ <span class="txt"> Google offered in: <a  style="color:darkblue;" href="#">Filipino Cebuano</a></span>
+        </div>
+     <footer><span class="foot">Philippines<hr>
+      <span class="foot"><a href="#" class ="ss" style="font-size:13px">Advertising</a> <a class ="ss aa" href="#">Business</a> <a class ="ss aa" href="#">About</a> <a class ="ss aa" href="#">How Search works</a></p></span></footer>
+        </div>
+        
     </body>
 </html>
